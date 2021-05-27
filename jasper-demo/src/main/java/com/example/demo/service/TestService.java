@@ -26,7 +26,7 @@ public class TestService {
 
 	public String generateJasper(String format) throws FileNotFoundException, JRException {
 		
-		String location ="C:\\Users\\ELCOT\\Downloads\\Java Downloads";
+		String location ="/home/sys-user/Downloads/";
 		List<Family> list= new ArrayList<>();
 		Family f=  new Family(1,"pernandas","jesu","rc north street","k.m.kottai"); 
 		Family f1=  new Family(1,"savariyammal","innacimuthu","rc north street","k.m.kottai"); 
